@@ -16,7 +16,7 @@ case "$1" in
 		# run application you want to start
 		cd /home/
 		sudo python data_log.py &
-		sudo ./drop.sh &
+		sudo ./upload.sh &
 	;;
 	stop)
 		echo "Stopping example"
